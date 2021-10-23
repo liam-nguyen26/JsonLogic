@@ -1,0 +1,9 @@
+{
+  "name": "Thanh toán liền tay nhận ngay hạt dẻ",
+  "reward": "Tặng ngay 40 hạt dẻ cho bạn",
+  "description": "Thanh toán hóa đơn bằng thẻ ACB tại đối tác bất kỳ của ACB",
+  "conditionToJoin": "Dành cho chủ thẻ ACB ở bất kỳ hạng thẻ nào",
+  "tutorial": "Bạn hãy mau chóng đến các đối tác của ACB và dùng thẻ ACB của mình để thanh toán nhé",
+  "startDate": "2021-10-23T14:48:00.000Z",
+  "endDate": "2021-12-23T14:48:00.000Z"
+}

@@ -1,0 +1,29 @@
+{
+  "and": [
+    { "==": [{ "var": "ChannelId" }, "133d2c08-635e-4644-baa9-be1cf7ec85bf"] },
+    {
+      "==": [{ "var": "EventTypeId" }, "7e03bd6b-df7c-41b5-9b28-18268fd92fb1"]
+    },
+    {
+      "some": [
+        { "var": "OrderEvent.Items" },
+        {
+          "or": [
+            {
+              "==": [
+                { "var": "ProductId" },
+                "133d2c08-635e-4644-baa9-be1cf7ec85ba"
+              ]
+            },
+            {
+              "==": [
+                { "var": "ProductId" },
+                "133d2c08-635e-4644-baa9-be1cf7ec88ba"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

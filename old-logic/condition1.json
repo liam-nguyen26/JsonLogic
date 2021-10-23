@@ -1,0 +1,6 @@
+{
+  "and": [
+    { "===": [{ "var": "channel.name" }, "mobile"] },
+    { "===": [{ "var": "submission.isValid" }, true] }
+  ]
+}

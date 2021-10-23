@@ -1,0 +1,6 @@
+{
+  "and": [
+    { "==": [{ "var": "channel" }, "mobile"] },
+    { ">=": [{ "var": "step.quantity" }, 4000] }
+  ]
+}
